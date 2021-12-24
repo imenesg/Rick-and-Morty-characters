@@ -25,7 +25,7 @@ function montaCard(name){
     /*descobre o genero e coloco o icone do sexo correto*/
 
 
-    /*descobre o genero e coloco o icone do sexo correto*/
+    /*descobre o genero e coloco o icone do status (vivo ou morto) correto*/
     if(dadosPersonagem.status=="Alive"){
         Cstatus = "<i class='bx bxs-circle icon'></i>"
    }
@@ -35,7 +35,7 @@ function montaCard(name){
    else{
         Cstatus = "<i class='bx bx-help-circle icon'></i>"
    }
-   /*descobre o genero e coloco o icone do sexo correto*/
+   /*descobre o genero e coloco o icone do status (vivo ou morto) correto*/
 
     
     

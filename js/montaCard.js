@@ -50,9 +50,7 @@ function montaCard(name){
     <p class="status">${Cstatus}Status:<span class="info"> ${dadosPersonagem.status}</span></p>
     </div>
     <p class="status">Appearances in episodes:<span class="info"> ${dadosPersonagem.episode.length}</span></p>
-    
     `
-
     card.innerHTML = cardPronto
     /*monta e jogo o card no HTML*/
 }

@@ -1,0 +1,19 @@
+
+:root{
+    --cor1: #55DE1E;
+    --cor2: #009600;
+    --cor3: #838383;
+
+}
+* {
+    box-sizing: border-box;
+}
+a{
+    color: unset;
+    text-decoration: none;
+    border-bottom: solid 2px var(--cor1);
+}
+.padding{
+    padding: 1rem;
+}
+

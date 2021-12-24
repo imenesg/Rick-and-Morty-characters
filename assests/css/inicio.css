@@ -1,0 +1,60 @@
+.inicio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+   height: 80vh;
+
+}
+.inicio img{
+    /*max-width: 30vw;*/
+    width: 50vw;
+    
+
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+
+} 
+.inicio h2{
+    margin-top: 1rem;
+    color: var(--cor1);
+    font-weight: 700;
+    font-size: 2rem;
+}
+.inicio p{
+   margin-top: .5rem;
+   line-height: 1.5rem;
+   margin-bottom: 2rem;
+}
+.inicio .botao{
+    color: #fff;
+    background-color: var(--cor1);
+    padding: .5rem 1.5rem;
+    border-radius: 99999px;
+    font-size: 1.5rem;
+    
+}
+
+.linkbotao{
+    color:unset;
+    text-decoration: none;
+    border: unset;
+    
+}
+
+@keyframes floating {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -0px); }    
+}
+
+@media (min-width: 700px) {
+
+    .inicio img{
+        max-width: 25vw;
+    } 
+
+ }

@@ -1,0 +1,16 @@
+.inputDiv{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    height: 2rem;
+    
+}
+
+input{
+    width: 90%;
+    max-width: 400px;
+    border-radius: 99999px;
+    
+    
+}

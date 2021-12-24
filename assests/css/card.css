@@ -38,7 +38,30 @@
     font-size: 1rem;
     
     margin: .5rem;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 .card p span{
     font-weight: bolder;
+}
+
+.icon{
+    color: var(--cor1);
+    font-size: 1.5rem;
+    margin-right: .5rem;
+}
+
+.icon-red{
+    color: #D63D2E;
+    font-size: 1.5rem;
+    margin-right: .5rem;
+}
+
+.alinhaIcones{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
 }
